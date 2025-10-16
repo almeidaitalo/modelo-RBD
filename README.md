@@ -1,4 +1,4 @@
-# Modelo Avançado RBD — Conexão ao site da UFS
+# Modelo  RBD — Conexão ao site da UFS
 
 **Resumo**  
 Repositório com scripts para gerar um relatório técnico (PDF) que modela a disponibilidade da conexão fim-a-fim ao site da UFS usando um *Reliability Block Diagram* (RBD). O modelo lê automaticamente a saída de um `traceroute` (arquivo `tr.txt`), identifica blocos do caminho, atribui parâmetros de confiabilidade (λ, μ), calcula MTTF/MTTR, disponibilidade por componente, disponibilidade total e downtime anual, e gera um PDF com tabela, diagrama e gráfico de contribuição ao downtime.
